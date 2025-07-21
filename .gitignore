@@ -1,0 +1,13 @@
+node_modules
+**/node_modules/
+.DS_Store
+.vscode
+**/.env
+**/.env.development
+**/.env.production
+**/.env.test
+**/build
+**/dist
+**/.hintrc
+**/.turbo
+

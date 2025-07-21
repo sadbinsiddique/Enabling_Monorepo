@@ -1,0 +1,22 @@
+{
+  "name": "saas_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "npm@11.4.2",
+  "type": "commonjs",
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
